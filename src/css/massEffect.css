@@ -1,0 +1,24 @@
+/*
+Theme Name: Font Mass Effect
+ */
+
+@font-face {
+    font-family: 'mass_effect_123regular';
+    font-weight: 100 900;
+    font-style: normal;
+    src: url('../fonts/me123-webfont.woff2') format('woff2'),
+    url('../fonts/me123-webfont.woff') format('woff');
+}
+
+.massEffect{
+    font-family: "mass_effect_123regular", serif;
+   
+    letter-spacing: 0.05em;
+    font-weight: bolder;
+}
+
+.massEffect-color{
+    color: #FF8500;
+}
+
+
