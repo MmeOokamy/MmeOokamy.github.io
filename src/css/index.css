@@ -12,7 +12,6 @@ nav {
 
 .ooka-hr-m {
     width: 10%;
-    
 }
 
 .imgCookieAvatar {
@@ -41,4 +40,13 @@ a {
 
 nav {
     visibility: hidden;
+}
+
+.ooka-list{
+    font-size:1em;
+    font-weight: bold;
+}
+
+.ooka-bold{
+    font-weight: bold;
 }
