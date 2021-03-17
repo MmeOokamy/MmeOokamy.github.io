@@ -54,7 +54,6 @@ nav {
 .ooka-topRow {
     display: flex;
     flex-direction: row;
-    
     vertical-align:center;
     align-items: center;
 }
