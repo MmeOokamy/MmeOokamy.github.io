@@ -57,3 +57,8 @@ nav {
     vertical-align:center;
     align-items: center;
 }
+
+.ooka-progress{
+    font-size: 0.3em;
+    display: none;
+}
