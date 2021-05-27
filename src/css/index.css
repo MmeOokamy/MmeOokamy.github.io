@@ -62,3 +62,9 @@ nav {
     font-size: 0.3em;
     display: none;
 }
+
+@media (max-width:800px) {
+    .ooka-topRow{
+        flex-direction: column;
+    }
+}
