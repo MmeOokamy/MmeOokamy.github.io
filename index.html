@@ -41,7 +41,7 @@
             <h1 class="mt-4 mb-1 massEffect">Mme
               <span class="massEffect massEffect-color">Ookamy</span>
             </h1>
-            <h2 class="mb-0">Développeuse<i class="fab fa-python"></i> Python</h2>
+            <h2 class="mb-0">Développeuse <i class="fab fa-python"></i> Python</h2>
             <div class="subheading mb-5">
               <a class="massEffect-color" href="https://www.ookamy.fr/contacter_moi">Me contacter</a>
             </div>
@@ -199,9 +199,22 @@
       <div class="mb-5 col-12 text-center">
         <a href="https://www.ookamy.fr/" class="" title="&#x1F91F Into the Unknow ! &#x1F609"><img id="door-img"
           src="src/img/cookie-2s-Ooka.gif" alt="&#x1F91F Into the Unknow ! &#x1F609">
-      </a>
+        </a>
       </div>
       
+    </section>
+    <section class="resume-section p-3 mb-3 p-lg-3 d-flex align-items-center row">
+      <div class="col-12 text-center">
+        <h2 class="mt-4 mb-1 massEffect"> Portfolio</h2>
+      </div>
+      <hr>
+      <div id="portfolio" class="col-12 row">
+        <div class="d-flex justify-content-center">
+          <div class="spinner-border" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+        </div>
+      </div>
     </section>
 
   </div>
@@ -214,18 +227,7 @@
     integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
     crossorigin="anonymous"></script>
 
-<script>
-	// let api = "https://www.ookamy.fr/api/achievement_json"
-	let api = "https://www.ookamy.fr/api/achievement"
-	function check_api(){
-		console.log('click')
-		let request = new XMLHttpRequest();
-		request.open("GET", api);
-		request.send();
-	};
-</script>
-
-
+<script src="src/js/script.js"></script>
 </body>
 
 </html>
