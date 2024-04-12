@@ -47,6 +47,7 @@ p {
 
 a {
     color: var(--orange);
+    text-decoration: none;
 }
 
 .copperfield {
@@ -108,4 +109,12 @@ nav {
 #door-img {
     height: 150px;
     width: auto;
+}
+.social-icons  a {
+    color: var(--bluedarkvintage);
+    font-size: larger;
+}
+.social-icons  a:hover{
+    color: var(--orange);
+    font-weight: bolder;
 }

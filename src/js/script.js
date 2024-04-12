@@ -26,24 +26,24 @@ function card_portfolio(achievement) {
 };
 
 function check_api() {
-    let xhr = new XMLHttpRequest();
-    xhr.open("GET", api);
-    xhr.send();
-    xhr.onreadystatechange = function() {
-        if (this.readyState === 4 && this.status === 200) {
+    // let xhr = new XMLHttpRequest();
+    // xhr.open("GET", api);
+    // xhr.send();
+    // xhr.onreadystatechange = function() {
+    //     if (this.readyState === 4 && this.status === 200) {
 
-            let dataApi = JSON.parse(this.responseText);
-            console.log(dataApi);
-            let portfolio_content = document.querySelector('#portfolio');
-            let html = '';
-            for (ac of dataApi) {
-                html += card_portfolio(ac)
-            }
-            portfolio_content.innerHTML = html;
+    //         let dataApi = JSON.parse(this.responseText);
+    //         console.log(dataApi);
+    //         let portfolio_content = document.querySelector('#portfolio');
+    //         let html = '';
+    //         for (ac of dataApi) {
+    //             html += card_portfolio(ac)
+    //         }
+    //         portfolio_content.innerHTML = html;
 
 
-        }
-    };
+    //     }
+    // };
 };
 
 
@@ -51,6 +51,6 @@ function check_api() {
 
 $(document).ready(function() {
     console.log('ready');
-    check_api();
+    // check_api();
 
 });
