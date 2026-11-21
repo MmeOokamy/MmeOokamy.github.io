@@ -15,6 +15,13 @@ const PROJECTS = [
         url: "https://github.com/MmeOokamy/herdr-always-need-mass-effect",
     },
     {
+        name: "we-always-need-cats",
+        tags: ["Python", "PyQt6", "Pixel art"],
+        fr: "Des chats en pixel art sur le bureau, un par session Claude Code : ils travaillent, viennent te chercher quand Claude a besoin de toi et sautent de joie quand c'est fini.",
+        en: "Pixel art cats on the desktop, one per Claude Code session: they work, come and fetch you when Claude needs you and jump for joy when it's done.",
+        url: "https://github.com/MmeOokamy/we-always-need-cats",
+    },
+    {
         name: "herdr-always-need-cats",
         tags: ["Python", "TypeScript", "Pixel art"],
         fr: "Des chats en pixel art dans Herdr : un chat d'usage dans la barre latérale, un chat par agent Claude Code, des notifications en forme de chat.",
