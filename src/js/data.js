@@ -22,6 +22,13 @@ const PROJECTS = [
         url: "https://github.com/MmeOokamy/herdr-always-need-cats",
     },
     {
+        name: "pycharm-always-need-mass-effect-hud",
+        tags: ["PyCharm", "JSON", "Python"],
+        fr: "Le thème HUD orange de cette page, version PyCharm : thème d'interface et couleurs de l'éditeur, pensées d'abord pour Python.",
+        en: "The orange HUD theme of this page, PyCharm edition: UI theme and editor colors, designed for Python first.",
+        url: "https://github.com/MmeOokamy/pycharm-always-need-mass-effect-hud",
+    },
+    {
         name: "ookamy.fr",
         tags: ["FastAPI", "Vue 3", "TypeScript", "CI/CD"],
         fr: "Mon site perso, mon bac à sable : une API FastAPI, une SPA Vue 3 bilingue et un back-office, déployés automatiquement.",
