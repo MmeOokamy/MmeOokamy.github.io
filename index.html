@@ -2,187 +2,168 @@
 <html lang="fr">
 
 <head>
-
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="Emmanuelle GOUGELET - Mme Ookamy">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Mme Ookamy — développeuse Python, FastAPI, Vue.js, homelab et petits jeux PyGame.">
+    <meta name="author" content="Mme Ookamy">
+    <meta name="theme-color" content="#0a0c0f">
+    <meta property="og:title" content="Mme Ookamy — Développeuse">
+    <meta property="og:description" content="Python, FastAPI, Vue.js, homelab et petits jeux PyGame.">
+    <meta property="og:image" content="https://mmeookamy.github.io/src/img/OokaLogo.svg">
     <link rel="icon" type="image/svg+xml" href="./src/img/OokaLogo.svg">
-
-    <title>Ookamy - Développeuse</title>
-
-    <!-- Bulma Bootstrap core CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-
-    <!-- Custom fonts for this template -->
-    <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous"> -->
-
-    <!-- Custom styles for this template -->
-    <link href="src/css/index.css" rel="stylesheet">
-    <link href="src/css/massEffect.css" rel="stylesheet">
-
-    <script src="https://kit.fontawesome.com/92a1346e0d.js" crossorigin="anonymous"></script>
+    <title>Mme Ookamy — Développeuse</title>
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
 
-<body id="top" class="container-fluid">
+<body>
+    <a class="skip-link" href="#main" data-i18n="skip">Aller au contenu</a>
 
-    <!-- Corps de la page -->
-    <div class="container-fluid ooka-fd-bl">
-        <section class="resume-section p-3 mb-3 p-lg-3 d-flex align-items-center" id="about">
-            <div class="w-sm-100">
-                <div class="ooka-topRow">
-                    <div>
-                        <img src="./src/img/OokaLogo.svg" />
-                    </div>
-                    <div>
-                        <h1 class="mt-4 mb-1 massEffect">Mme
-                            <span class="massEffect massEffect-color">Ookamy</span>
-                        </h1>
-                        <h2 class="mb-0">Développeuse <i class="fab fa-python"></i> Python</h2>
-                        
-                    </div>
-                </div>
-                <p class="lead mb-1">
-                    Hey salutation visiteur bienvenue dans mon monde numérique.
-                </p>
-                <p class="mb-1">
-                    Développeuse curieuse, toujours en quête de nouvelles opportunités d'apprentissage et d'exploration. Mon parcours m'a permis d'expérimenter divers langages de programmation, mais c'est Python qui a conquis mon cœur. 
-                    
-                </p>
-                <p class="mb-4">
-                    Découvrez mon univers de développeuse à travers une collection diversifiée de projets passionnants, où chaque ligne de code raconte une histoire unique. 
-                </p>
+    <!-- Top HUD bar -->
+    <header class="hud-bar">
+        <a class="hud-brand" href="#top" aria-label="Mme Ookamy">
+            <img src="./src/img/OokaLogo.svg" alt="" width="32" height="32">
+            <span class="me-font">Ookamy</span>
+        </a>
+        <nav class="hud-nav" aria-label="Navigation">
+            <a href="#about" data-i18n="nav.about">Profil</a>
+            <a href="#projects" data-i18n="nav.projects">Missions</a>
+            <a href="#stack" data-i18n="nav.stack">Arsenal</a>
+            <a href="#homelab" data-i18n="nav.homelab">Homelab</a>
+        </nav>
+        <div class="lang-switch" role="group" aria-label="Langue / Language">
+            <button type="button" data-lang="fr" aria-pressed="true">FR</button>
+            <button type="button" data-lang="en" aria-pressed="false">EN</button>
+        </div>
+    </header>
 
-                <div class="social-icons text-center ooka-align-center ">
-                    <div class="subheading">
-                        <a class="" href="https://www.ookamy.fr/contact">Me Contacter</a>
-                    </div>
-                    <a href="https://www.linkedin.com/in/e-gougelet/" target="_blank" title="Profil LinkedIn">
-                        <i class="fab fa-linkedin-in"></i>
-                    </a>
-                    <a href="https://github.com/MmeOokamy" target="_blank" title="Github">
-                        <i class="fab fa-github"></i>
-                    </a>
-                    <a href="https://gitlab.com/Ookamy" target="_blank" title="Gitlab">
-                        <i class="fa-brands fa-gitlab"></i>
-                    </a>
-                    <a href="https://www.ookamy.fr/" target="_blank" title="">
-                        <i class="fab fa-firefox"></i>
-                    </a>
-                    <a href="https://www.travaux.ookamy.fr/" target="_blank" title="attention c'est moche">
-                        <i class="fas fa-link"></i>
-                    </a>
-                </div>
+    <main id="main">
+        <!-- Hero -->
+        <section class="hero" id="top">
+            <div class="hero-logo">
+                <div class="ring ring-1"></div>
+                <div class="ring ring-2"></div>
+                <img src="./src/img/OokaLogo.svg" alt="Logo Ookamy" width="220" height="220">
+            </div>
+            <div class="hero-text">
+                <p class="hud-label" data-i18n="hero.label">// Dossier personnel — accès autorisé</p>
+                <h1 class="me-font">Mme <span class="accent">Ookamy</span></h1>
+                <p class="hero-role" data-i18n="hero.role">Développeuse Python · Web · Homelab</p>
+                <p class="hero-tagline" data-i18n="hero.tagline">
+                    Je bidouille des API, des interfaces et des serveurs, et je code des petits jeux pour le plaisir.
+                </p>
+                <ul class="links">
+                    <li>
+                        <a class="plate" href="https://github.com/MmeOokamy" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.1-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.84 1.19 3.1 0 4.42-2.7 5.4-5.26 5.68.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg>
+                            GitHub
+                        </a>
+                    </li>
+                    <li>
+                        <a class="plate" href="https://gitlab.com/Ookamy" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m23.6 9.6-.03-.09-3.3-8.6a.86.86 0 0 0-1.63.06l-2.22 6.8H7.58L5.36.97a.86.86 0 0 0-1.63-.06L.43 9.5l-.03.09a6.1 6.1 0 0 0 2.02 7.05l.01.01.03.02 5.02 3.76 2.48 1.88 1.51 1.14a1.02 1.02 0 0 0 1.23 0l1.51-1.14 2.48-1.88 5.05-3.78.01-.01a6.1 6.1 0 0 0 2.02-7.04Z"/></svg>
+                            GitLab
+                        </a>
+                    </li>
+                    <li>
+                        <a class="plate" href="https://www.linkedin.com/in/e-gougelet/" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0Z"/></svg>
+                            LinkedIn
+                        </a>
+                    </li>
+                    <li>
+                        <a class="plate plate-primary" href="https://www.ookamy.fr/" target="_blank" rel="noopener">
+                            <svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M2 12h20M12 2a15 15 0 0 1 0 20M12 2a15 15 0 0 0 0 20"/></svg>
+                            ookamy.fr
+                        </a>
+                    </li>
+                </ul>
             </div>
         </section>
 
-        <section class="resume-section p-3 p-lg-3 d-flex align-items-center" id="skills">
-            <div class="w-sm-100 row">
-
-                <div class="col-md-4 mb-5">
-                    <div class="subheading mb-3 text-center">Langages</div>
-                    <div class="row">
-                        <div class="col-4 text-center h1" data-toggle="tooltip" data-placement="top" title="Python (django, flask, kivy) et I LOVE PYTHON <3 ">
-                            <i class="fab fa-python"></i>
-                        </div>
-                        <div class="col-4 text-center h1" data-toggle="tooltip" data-placement="top" title="SQL, PostgresSQL, MySQL, MariaDB">
-                            <i class="fas fa-database"></i>
-                        </div>
-                        <div class="col-4 text-center h1" data-toggle="tooltip" data-placement="top" title="Javascript & jQuery">
-                            <i class="fab fa-js-square"></i>
-                        </div>
-
-                        <div class="col-4 text-center h1" data-toggle="tooltip" data-placement="top" title="HTML 5">
-                            <div class="row">
-                                <i class="col fab fa-html5"></i>
-                            </div>
-                        </div>
-                        <div class="col-4 text-center h1" data-toggle="tooltip" data-placement="top" title="CSS 3">
-                            <i class="fab fa-css3-alt"></i>
-                        </div>
-                        <div class="col-4 text-center h1" data-toggle="tooltip" data-placement="top" title="PHP 7">
-                            <i class="fab fa-php"></i>
-                        </div>
-
-                        <div class="col-4 text-center h1" data-toggle="tooltip" data-placement="top" title="Java & J2EE">
-                            <i class="fab fa-java"></i>
-                        </div>
-                    </div>
+        <!-- About -->
+        <section class="panel" id="about">
+            <h2 class="section-title"><span class="me-font" data-i18n="about.title">Profil</span></h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p data-i18n="about.p1">
+                        Bienvenue dans mon univers ! Développeuse curieuse, j'ai essayé pas mal de langages,
+                        mais c'est <strong>Python</strong> qui a conquis mon cœur.
+                    </p>
+                    <p data-i18n="about.p2">
+                        Mon terrain de jeu va des sites web aux applications de bureau : API avec FastAPI,
+                        interfaces en Vue.js, bots Discord, et des serveurs auto-hébergés à la maison.
+                    </p>
+                    <p data-i18n="about.p3">
+                        <strong>Ma passion du moment ?</strong> Les jeux en PyGame. Qui sait, une version jouable
+                        sur PC, mobile ou navigateur verra peut-être le jour…
+                    </p>
                 </div>
-                <div class="col-md-4 mb-5 ">
-                    <div class="subheading mb-3 text-center">Frameworks & CMS</div>
-                    <div class="row">
-                        <div class="col-4 text-center h1" data-toggle="tooltip" data-placement="top" title="Flask & Django">
-                            <i class="fas fa-pepper-hot"></i>
-                        </div>
-                        <div class="col-4 text-center h1" data-toggle="tooltip" data-placement="top" title="Symfony">
-                            <i class="fab fa-symfony"></i>
-                        </div>
-                        <div class="col-4 text-center h1" data-toggle="tooltip" data-placement="top" title="React">
-                            <i class="fab fa-react"></i>
-                        </div>
-                        <div class="col-4 text-center h1" data-toggle="tooltip" data-placement="top" title="laravel">
-                            <i class="fab fa-laravel"></i>
-                        </div>
-                        <div class="col-4 text-center h1" data-toggle="tooltip" data-placement="top" title="angular">
-                            <i class="fab fa-angular"></i>
-                        </div>
-
-                        <div class="col-4 text-center h1" data-toggle="tooltip" data-placement="top" title="ionic">
-                            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M30.4327 9.05578L30.5633 9.36054C31.5211 11.4721 32 13.6925 32 16C32 24.8163 24.8163 32 16 32C7.18367 32 0 24.8163 0 16C0 7.18367 7.18367 0 16 0C18.5905 0 21.0503 0.609524 23.3143 1.7415L23.619 1.89388L23.3578 2.11156C22.7048 2.63401 22.2041 3.28707 21.8776 4.04898L21.7905 4.26667L21.5946 4.17959C19.8313 3.35238 17.9592 2.91701 16 2.91701C8.77279 2.91701 2.91701 8.77279 2.91701 16C2.91701 23.2272 8.77279 29.083 16 29.083C23.2272 29.083 29.083 23.2054 29.083 16C29.083 14.2803 28.7565 12.5823 28.0816 10.9932L27.9946 10.7755L28.2122 10.6884C28.9741 10.4054 29.6707 9.92653 30.215 9.31701L30.4327 9.05578ZM26.4707 9.36057C28.3102 9.36057 29.8014 7.8694 29.8014 6.02996C29.8014 4.19051 28.3102 2.69934 26.4707 2.69934C24.6313 2.69934 23.1401 4.19051 23.1401 6.02996C23.1401 7.8694 24.6313 9.36057 26.4707 9.36057ZM15.9999 8.70754C11.9727 8.70754 8.7074 11.9728 8.7074 16.0001C8.7074 20.0273 11.9727 23.2926 15.9999 23.2926C20.0271 23.2926 23.2924 20.0273 23.2924 16.0001C23.2924 11.9728 20.0271 8.70754 15.9999 8.70754Z" fill="currentColor"></path>
-                            </svg>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col-md-4 mb-5 ">
-                    <div class="subheading mb-3 text-center">Tools</div>
-                    <div class="row">
-                        <div class="col-4 text-center h1" data-toggle="tooltip" data-placement="top" title="Github">
-                            <i class="fab fa-github"></i>
-                        </div>
-                        <div class="col-4 text-center h1" data-toggle="tooltip" data-placement="top" title="NPM">
-                            <i class="fab fa-npm"></i>
-                        </div>
-                        <div class="col-4 text-center h1" data-toggle="tooltip" data-placement="top" title="NodeJs">
-                            <i class="fab fa-node"></i>
-                        </div>
-                        <div class="col-4 text-center h1" data-toggle="tooltip" data-placement="top" title="Jira">
-                            <i class="fab fa-jira"></i>
-                        </div>
-                        <div class="col-4 text-center h1" data-toggle="tooltip" data-placement="top" title="swift & xCode">
-                            <i class="fab fa-swift"></i>
-                        </div>
-
-                    </div>
-                </div>
+                <dl class="stat-card">
+                    <div><dt data-i18n="about.class">Classe</dt><dd data-i18n="about.classValue">Ingénieure (Pythoniste)</dd></div>
+                    <div><dt data-i18n="about.weapon">Arme favorite</dt><dd>Python 🐍</dd></div>
+                    <div><dt data-i18n="about.ship">Vaisseau</dt><dd data-i18n="about.shipValue">Homelab Proxmox</dd></div>
+                    <div><dt data-i18n="about.status">Statut</dt><dd><span class="status-dot"></span><span data-i18n="about.statusValue">En mission</span></dd></div>
+                </dl>
             </div>
         </section>
 
-        <section class="resume-section p-3  d-flex align-items-center row">
-            <div class="col-12 row align-items-center ">
-                <div class="col-sm-6 d-flex justify-content-end">
-                    <a href="https://www.ookamy.fr/" target="_blank" title="&#x1F91F Into the Unknow ! &#x1F609">
-                        <img id="door-img" src="src/img/cookie-2s-Ooka.gif" alt="&#x1F91F Into the Unknow ! &#x1F609">
-                    </a>
-                </div>
-                <div class="col-sm-6">
-                    <h2 class=" mb-1 massEffect"> Portfolio</h2>
-                </div>
-            </div>
-            <a href="http://" target="_blank" rel="noopener noreferrer"></a>
-            
+        <!-- Projects (rendered from src/js/data.js) -->
+        <section class="panel" id="projects">
+            <h2 class="section-title"><span class="me-font" data-i18n="projects.title">Missions</span></h2>
+            <p class="section-intro" data-i18n="projects.intro">Quelques projets récents. La liste s'allonge au fil des missions.</p>
+            <div class="cards" id="project-list"></div>
         </section>
-    </div>
-    <!-- Partie Script Js-->
-    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
 
-    <script src="src/js/script.js"></script>
+        <!-- Stack (rendered from src/js/data.js) -->
+        <section class="panel" id="stack">
+            <h2 class="section-title"><span class="me-font" data-i18n="stack.title">Arsenal</span></h2>
+            <div class="stack-grid" id="stack-list"></div>
+        </section>
+
+        <!-- Homelab -->
+        <section class="panel" id="homelab">
+            <h2 class="section-title"><span class="me-font" data-i18n="homelab.title">Homelab &amp; DevOps</span></h2>
+            <p class="section-intro" data-i18n="homelab.intro">
+                Mes projets tournent sur mon propre matériel. C'est mon labo pour apprendre l'admin sys.
+            </p>
+            <ol class="pipeline">
+                <li>
+                    <span class="step-num">01</span>
+                    <h3 data-i18n="homelab.s1.title">Code</h3>
+                    <p data-i18n="homelab.s1.text">Dépôts sur GitHub et GitLab, tests automatisés avec pytest et Vitest.</p>
+                </li>
+                <li>
+                    <span class="step-num">02</span>
+                    <h3 data-i18n="homelab.s2.title">CI/CD</h3>
+                    <p data-i18n="homelab.s2.text">GitHub Actions et GitLab CI avec un runner maison : lint, tests, build, déploiement.</p>
+                </li>
+                <li>
+                    <span class="step-num">03</span>
+                    <h3 data-i18n="homelab.s3.title">Serveurs</h3>
+                    <p data-i18n="homelab.s3.text">Machines virtuelles Proxmox et un NAS ; Nginx en reverse proxy devant les services.</p>
+                </li>
+                <li>
+                    <span class="step-num">04</span>
+                    <h3 data-i18n="homelab.s4.title">En ligne</h3>
+                    <p data-i18n="homelab.s4.text">L'API tourne à la maison, le site public est servi depuis OVH.</p>
+                </li>
+            </ol>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <a class="cookie" href="https://www.ookamy.fr/" target="_blank" rel="noopener" data-i18n-title="footer.cookie" title="Into the unknown !">
+            <img src="src/img/cookie-2s-Ooka.gif" alt="" width="96" height="96" loading="lazy">
+        </a>
+        <p>
+            <span data-i18n="footer.contact">Une question, un projet ?</span>
+            <a href="https://www.ookamy.fr/contact" target="_blank" rel="noopener" data-i18n="footer.contactLink">Me contacter</a>
+        </p>
+        <p class="footer-small">© <span id="year">2026</span> Mme Ookamy · <span data-i18n="footer.made">Fait main, en HTML et CSS</span></p>
+    </footer>
+
+    <script src="src/js/data.js"></script>
+    <script src="src/js/main.js"></script>
 </body>
 
 </html>
